@@ -18,15 +18,15 @@ public class LoginPage{
         this.driver=driver;
         PageFactory.initElements(driver, this);
     }
-    public void input_email(){
+    public void input_email(String email){
         //WebElement emailbox = driver.findElement(By.id("Email"));
         emailbox.clear();
-        emailbox.sendKeys("admin@yourstore.com");
+        emailbox.sendKeys(email);
     }
-    public void input_password(){
+    public void input_password(String password){
         //WebElement passwordbox=driver.findElement(By.id("Password"));
         passwordbox.clear();
-        passwordbox.sendKeys("admin");
+        passwordbox.sendKeys(password);
     }
     public void click_login_button(){
         //WebElement loginbutton=driver.findElement(By.xpath("//button[@type=\"submit\"]"));

@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b02d0bb-ee93-4295-a9e1-fd2757b043c5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/ExtentReportManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/ExcelUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/LoginTest.java" afterDir="false" />
     </list>
@@ -154,8 +153,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.LoginTest.test_valid_login" />
-        <item itemvalue="TestNG.C:/Users/YAN/IdeaProjects/com.test.automation/testing.xml" />
         <item itemvalue="TestNG.LoginTest" />
+        <item itemvalue="TestNG.C:/Users/YAN/IdeaProjects/com.test.automation/testing.xml" />
         <item itemvalue="TestNG.LoginTest.test_valid_login (3)" />
         <item itemvalue="TestNG.LoginTest.test_valid_login (2)" />
       </list>
