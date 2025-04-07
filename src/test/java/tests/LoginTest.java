@@ -15,7 +15,12 @@ import java.io.IOException;
 import java.time.Duration;
 
 public class LoginTest extends BaseTest {
-    @DataProvider(name="LoginData")
+    /**
+     * 获取表格中的数据
+     * @return 返回文件中用户名 密码
+     * @throws IOException
+     */
+    @DataProvider(name="LoginData")//@dataprovider注解表示数据提供的对象 name表示名称
     public Object[][] getLoginData() throws IOException {
 
         String filePath = System.getProperty("user.dir")+"/testdata/TestData.xlsx";
@@ -40,7 +45,7 @@ public class LoginTest extends BaseTest {
                 {"user3","pass3"}
         };
     }
-    @Test(dataProvider = "LoginData")
+    @Test(dataProvider = "LoginData2")//dataprovider里面填写名称表示数据来源
     public void test_valid_login(String username,String password){
 
         test= ExtentReportManager.createTest("Login test");
