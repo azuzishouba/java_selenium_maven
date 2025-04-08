@@ -1,3 +1,6 @@
+/**
+ * 文件描述：测试登录界面
+ */
 package tests;
 
 import base.BaseTest;
@@ -45,7 +48,7 @@ public class LoginTest extends BaseTest {
                 {"user3","pass3"}
         };
     }
-    @Test(dataProvider = "LoginData2")//dataprovider里面填写名称表示数据来源
+    @Test(dataProvider = "LoginData")//dataprovider里面填写名称表示数据来源
     public void test_valid_login(String username,String password){
 
         test= ExtentReportManager.createTest("Login test");

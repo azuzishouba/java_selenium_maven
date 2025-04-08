@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b02d0bb-ee93-4295-a9e1-fd2757b043c5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/EmailUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/EmailUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/EmailUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/LoginTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,21 +40,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;TestNG.C:/Users/YAN/IdeaProjects/com.test.automation/testing.xml.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.LoginTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.LoginTest.test_valid_login (1).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.LoginTest.test_valid_login (2).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.LoginTest.test_valid_login (3).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.LoginTest.test_valid_login.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/YAN/IdeaProjects/com.test.automation/src/main/java/com/test/automation/Main.java&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.C:/Users/YAN/IdeaProjects/com.test.automation/testing.xml.executor": "Run",
+    "TestNG.LoginTest.executor": "Run",
+    "TestNG.LoginTest.test_valid_login (1).executor": "Run",
+    "TestNG.LoginTest.test_valid_login (2).executor": "Run",
+    "TestNG.LoginTest.test_valid_login (3).executor": "Run",
+    "TestNG.LoginTest.test_valid_login.executor": "Run",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "C:/Users/YAN/IdeaProjects/com.test.automation/src/main/java/com/test/automation/Main.java",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="TestNG.LoginTest.test_valid_login">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="com.test.automation" />
@@ -180,5 +181,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="添加了email工具文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
 </project>

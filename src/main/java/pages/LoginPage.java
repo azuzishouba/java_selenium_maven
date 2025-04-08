@@ -1,3 +1,6 @@
+/**
+ * 文件描述:登陆界面对元素的操作方法
+ */
 package pages;
 
 import org.openqa.selenium.By;

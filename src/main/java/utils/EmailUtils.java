@@ -1,3 +1,6 @@
+/**
+ * 文件描述：发送邮件工具类
+ */
 package utils;
 
 import java.io.File;
@@ -16,9 +19,9 @@ import jakarta.mail.internet.MimeMultipart;
 public class EmailUtils {
 
     public static void sendTestReport(String reportPath) {
-        final String senderEmail = "demo1.raghav@gmail.com";
-        final String appPassword = "wqifecudcpahdhrq";
-        final String recipientEmail = "demo1.raghav@gmail.com";
+        final String senderEmail = "z2510668237@gmail.com";//自己的gmail邮箱
+        final String appPassword = "dljvxzaxwuodarfc";//生成额应用密码
+        final String recipientEmail = "z2510668237@gmail.com";
 
         // SMTP Server Properties
         Properties prop = new Properties();
